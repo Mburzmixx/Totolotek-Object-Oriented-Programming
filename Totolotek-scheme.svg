@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="101cm" height="51cm" viewBox="-538 -181 2013 1001" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="-536.532" y="-177.248" width="433.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-536.532" y="-177.248" width="433.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-319.782" y="-157.248">CentralaTotolotka</text>
+    <rect style="fill: #ffffff" x="-536.532" y="-149.248" width="433.5" height="276"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-536.532" y="-149.248" width="433.5" height="276"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="-136.048">-środkiFinansowe: long</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="-120.048">-kumulacja: long</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="-104.048">-numerPorządkowyKuponów: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="-88.048">-numerPorządkowyKolektur: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="-72.048">-numerPorządkowyLosowań: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="-56.048">-budżetPaństwa: BudżetPaństwa</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="-40.048">-BudżetyLosowań: ArrayList&lt;Long&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="-24.048">-ArchiwumLosowań: ArrayList&lt;Losowanie&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="-8.048">-AutoryzowaneKolektury: ArrayList&lt;Kolektura&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="7.952">-media: Media</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="23.952">-budżetPaństwa: BudżetPaństwa</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="39.952">-NAGRODA_CZWARTEGO_STOPNIA: long = 24_00</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="55.952">-MIN_NAGRODA_TRZECIEGO_STOPNIA: long = 36_00</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="71.952">-MIN_OPODATKOWANA_KWOTA: long = 2280_00</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="87.952">-PRZEDZIAŁ_STOPNI_LK: int = 1</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="103.952">-PRZEDZIAŁ_STOPNI_PK: int = 4</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="119.952">-DOMYŚNY_ROZMIAR_TABLIC: int = 5</text>
+    <rect style="fill: #ffffff" x="-536.532" y="126.752" width="433.5" height="388"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-536.532" y="126.752" width="433.5" height="388"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="139.952">+KONSTR.(budżetPaństwa:BudżetPaństwa,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="155.952">         media:Media): CentralaTotolotka</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="171.952">+przeprowadźLosowanie(): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="187.952">-obliczZwycięskieZakłady(losowanie:Losowanie): long[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="203.952">-obliczPulęNagród(ZwycięskieZakłady:long[],</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="219.952">                    losowanie:Losowanie): long</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="235.952">-obliczKwotyWygranych(PulaNagród:long[],</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="251.952">                      ZwycięskieZakłady:long[]): long[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="267.952"> autoryzujNowąKolekturę(kolektura:Kolektura): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="283.952">+dajNumerNastępnegoLosowania(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="299.952">+dajNumerOstatniegoLosowania(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="315.952"> dajNumerPorządkowyKuponów(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="331.952"> zwiększNumerPorzadkowyKuponów(): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="347.952">-zwiększBudżetLosowania(indeksLosowania:int,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="363.952">                          kwota:long): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="379.952">-dajBudżetLosowania(indeksLosowania:int): long</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="395.952">+dajLosowąKolekturę(): Kolektura</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="411.952"> odprowadźPodatek(kwota:long): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="427.952">-dobierzSubwencję(kwota:long): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="443.952"> wydaj(kwota:long): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="459.952"> odbierzZysk(kwota:long): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="475.952">+wynikLosowania(indeksLosowania:int): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="491.952">+wynikiWszystkichLosowań(): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.532" y="507.952">+wypiszStanŚrokówFinansowych(): String</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1099.01" y="88.437" width="271.8" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1099.01" y="88.437" width="271.8" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1234.91" y="108.437">BudżetPaństwa</text>
+    <rect style="fill: #ffffff" x="1099.01" y="116.437" width="271.8" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1099.01" y="116.437" width="271.8" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1102.01" y="129.637">-pobranePodatki: long</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1102.01" y="145.637">-przekazaneSubwencje: long</text>
+    <rect style="fill: #ffffff" x="1099.01" y="152.437" width="271.8" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1099.01" y="152.437" width="271.8" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1102.01" y="165.637"> udzielSubwencji(kwota:long): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1102.01" y="181.637"> przyjmijPodatek(kwota:long): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1102.01" y="197.637">+dajPobranePodatki(): long</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1102.01" y="213.637">+dajPrzekazaneSubwencje(): long</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="558.344" y="-179.641" width="472" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="558.344" y="-179.641" width="472" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="794.344" y="-159.641">Blankiet</text>
+    <rect style="fill: #ffffff" x="558.344" y="-151.641" width="472" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="558.344" y="-151.641" width="472" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="561.344" y="-138.441">-Zakłady: Zakład[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="561.344" y="-122.441">-liczbaLosowań: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="561.344" y="-106.441">-MAX_LICZBA_ZAKŁADÓW: int = 8</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="561.344" y="-90.4414">-LICZBA_PÓL_LOSOWAŃ: int = 10</text>
+    <rect style="fill: #ffffff" x="558.344" y="-83.6414" width="472" height="116"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="558.344" y="-83.6414" width="472" height="116"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="561.344" y="-70.4414">+KONSTR.(Zakłady:Zakład[],liczbaLosowań:boolean[]): Blankiet</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="561.344" y="-54.4414">+KONSTR.(wybraneLiczby:TreeSet&lt;Integer&gt;,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="561.344" y="-38.4414">         liczbaLosowań:int): Blankiet</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="561.344" y="-22.4414">+wyceńBlankiet(): long</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="561.344" y="-6.4414">+dajWytypowaneLiczby(): ArrayList&lt;TreeSet&lt;Integer&gt;&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="561.344" y="9.5586"> dajLiczbęLosowań(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="561.344" y="25.5586">+toString(): String</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="578.144" y="42.8734" width="464.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="578.144" y="42.8734" width="464.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="810.294" y="62.8734">Gracz</text>
+    <rect style="fill: #ffffff" x="578.144" y="70.8734" width="464.3" height="116"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="578.144" y="70.8734" width="464.3" height="116"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581.144" y="84.0734">-imię: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581.144" y="100.073">-nazwisko: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581.144" y="116.073">-pesel: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581.144" y="132.073">-środkiPieniężne: long</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581.144" y="148.073">-ZakupioneKupony: ArrayList&lt;Kupon&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581.144" y="164.073">-DOMYŚLNA_LICZBA_ZAKŁADÓW: int = 1</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581.144" y="180.073">-DOMYŚLNA_LICZBA_LOSOWAŃ: int = 1</text>
+    <rect style="fill: #ffffff" x="578.144" y="186.873" width="464.3" height="212"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="578.144" y="186.873" width="464.3" height="212"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581.144" y="200.073">+KONSTR.(imię:String,nazwisko:String,pesel:String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581.144" y="216.073">         środkiPieniężne:long): Gracz</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581.144" y="232.073">+kupKupon(blankiet:Blankiet,kolektura:Kolektura): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581.144" y="248.073">+kupKupon(liczbaZakładów:int,liczbaLosowań:int,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581.144" y="264.073">          kolektura:Kolektura): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581.144" y="280.073">+zrealizujKupon(indeksKuponu:int,kolektura:Kolektura): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581.144" y="296.073">+zrealizujKupon(kupon:Kupon,kolektura:Kolektura): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581.144" y="312.073">+wydaj(kwota:long): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581.144" y="328.073">+czyMaConajmniej(kwota:long): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581.144" y="344.073">#usłyszInformację(ZwycięskaSzóstka:TreeSet&lt;Integer&gt;,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581.144" y="360.073">                    numerLosowania:int): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581.144" y="376.073">#sprawdźKupony(): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581.144" y="392.073">+toString(): String</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-77.047" y="341.866" width="433.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-77.047" y="341.866" width="433.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="139.703" y="361.866">Kolektura</text>
+    <rect style="fill: #ffffff" x="-77.047" y="369.866" width="433.5" height="148"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-77.047" y="369.866" width="433.5" height="148"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.047" y="383.066">-centrala: CentralaTotolotka</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.047" y="399.066">-numerPorządkowy: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.047" y="415.066">-SprzedaneKupony: HashMap&lt;String, Kupon&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.047" y="431.066">-CENA_KUPONU_BRUTTO: long = 3_00</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.047" y="447.066">-PRZEDZIAŁ_STOPNI_LK: int = 1</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.047" y="463.066">-PRZEDZIAŁ_STOPNI_PK: int = 4</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.047" y="479.066">-DOMYŚLNY_ROZMIAR_TABLIC: int = 5</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.047" y="495.066">-MAX_LICZBA_ZAKŁADÓW: int = 8</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.047" y="511.066">-MAX_LICZBA_LOSOWAŃ: int = 10</text>
+    <rect style="fill: #ffffff" x="-77.047" y="517.866" width="433.5" height="148"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-77.047" y="517.866" width="433.5" height="148"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.047" y="531.066">+KONSTR.(centrala:CentralaTotolotka): Kolektura</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.047" y="547.066">+wyceńKupon(liczbaZakładów:int,liczbaLosowań:int): long</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.047" y="563.066"> sprzedajKupon(blankiet:Blankiet,gracz:Gracz): Kupon</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.047" y="579.066"> sprzedajKupon(liczbaZakładów:int,liczbaLosowań:int,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.047" y="595.066">               gracz:Gracz): Kupon</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.047" y="611.066"> obliczZwycięskieZakłady(losowanie:Losowanie): long[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.047" y="627.066"> dajNumerPorządkowy(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.047" y="643.066"> dajNumerOstatniegoLosowania()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.047" y="659.066"> zrealizujKupon(kupon:Kupon): long</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-77.0296" y="-178.946" width="610.6" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-77.0296" y="-178.946" width="610.6" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="228.27" y="-158.946">Kupon</text>
+    <rect style="fill: #ffffff" x="-77.0296" y="-150.946" width="610.6" height="164"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-77.0296" y="-150.946" width="610.6" height="164"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="-137.746">-numerPorządkowy: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="-121.746">-liczbaLosowań: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="-105.746">-numerPierwszegoLosowania: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="-89.7462">-czyZrealizowany: boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="-73.7462">-identyfikatorKuponu: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="-57.7462">-miejsceZakupu: Kolektura</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="-41.7462">-WytypowaneLiczby: ArrayList&lt;TreeSet&lt;Integer&gt;&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="-25.7462">-DOMYŚLNY_STOPNIEŃ: int = 7</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="-9.7462">-MAX_LICZBA_LOSOWAŃ: int = 10</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="6.2538">-MAX_LICZBA_ZAKŁADÓW: int = 8</text>
+    <rect style="fill: #ffffff" x="-77.0296" y="13.0538" width="610.6" height="324"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-77.0296" y="13.0538" width="610.6" height="324"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="26.2538"> KONSTR.(miejsceZakupu:Kolektura,WytypowaneLiczby:ArrayList&lt;TreeSet&lt;Integer&gt;&gt;,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="42.2538">         numerPorządkowy:int,numerPierwszegoLosowania:int,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="58.2538">         liczbaLosowań:int): Kupon</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="74.2538"> KONSTR.(miejsceZakupu:Kolektura,numerPorządkowy:int,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="90.2538">         numerPierwszegoLosowania:int,liczbaLosowań:int,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="106.254">         liczbaZakładów:int): Kupon</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="122.254"> stopnieNagród(ZwycięskaSzóstka:TreeSet&lt;Integer&gt;,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="138.254">                numerLosowania:int): ArrayList&lt;Integer&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="154.254">+czyOdbyłySięWszystkieLosowania(): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="170.254">+czyZrealizowany(): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="186.254"> ustawKuponNaZrealizowany()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="202.254">-ustawIdentyfikatorKuponu(numerPorządkowy:int,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="218.254">                          numerPorządkowyKolektur:int): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="234.254">+dajIdentyfikatorKuponu(): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="250.254">+dajOdprowadzanyPodatek(): long</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="266.254">+wyceńKupon(): long</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="282.254">+dajMiejsceZakupu(): Kolektura</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="298.254">+dajNumerPierwszegoLosowania(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="314.254">+dajLiczbęLosowań(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-74.0296" y="330.254">+toString(): String</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-536.14" y="522.298" width="433.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-536.14" y="522.298" width="433.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-319.39" y="542.298">Losowanie</text>
+    <rect style="fill: #ffffff" x="-536.14" y="550.298" width="433.5" height="116"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-536.14" y="550.298" width="433.5" height="116"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.14" y="563.498">-numerPorządkowy: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.14" y="579.498">-KwotyWygranych: long[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.14" y="595.498">-PulaNagród: long[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.14" y="611.498">-ZwycięskieZakłady: long[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.14" y="627.498">-WynikLosowania: TreeSet&lt;Integer&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.14" y="643.498">-PRZEDZIAŁ_STOPNI_LK: int = 1</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.14" y="659.498">-PRZEDZIAŁ_STOPNI_PK: int = 4</text>
+    <rect style="fill: #ffffff" x="-536.14" y="666.298" width="433.5" height="148"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-536.14" y="666.298" width="433.5" height="148"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.14" y="679.498"> KONSTR.(numerPorządkowy:int): Losowanie</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.14" y="695.498"> dajZwycięskąSzóstkę(): TreeSet&lt;Integer&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.14" y="711.498"> ustawZwycięskieZakłady(ZwycięskieZakłady:long[]): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.14" y="727.498"> ustawPulęNagród(PulaNagród:long[]): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.14" y="743.498"> ustawKwotyWygranych(KwotyWygranych:long[]): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.14" y="759.498"> dajKwotęWygranej(stopień:int): long</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.14" y="775.498"> dajNumerLosowania(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.14" y="791.498">+dajWynikLosowania(): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-533.14" y="807.498">+toString(): String</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1063.53" y="290.296" width="410.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1063.53" y="290.296" width="410.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1268.73" y="310.296">Losowy</text>
+    <rect style="fill: #ffffff" x="1063.53" y="318.296" width="410.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1063.53" y="318.296" width="410.4" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.53" y="331.496">-media: Media</text>
+    <rect style="fill: #ffffff" x="1063.53" y="338.296" width="410.4" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1063.53" y="338.296" width="410.4" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.53" y="351.496">+KONSTR.(imię:String,nazwisko:String,pesel:String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.53" y="367.496">         środkiPieniężne:long,media:Media): Losowy</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.53" y="383.496">+usłyszInformację(ZwycięskaSzóstka:TreeSet&lt;Integer&gt;,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.53" y="399.496">                    numerLosowania:int): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="379.752" y="478.36" width="556.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="379.752" y="478.36" width="556.7" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="658.102" y="498.36">Minimalista</text>
+    <rect style="fill: #ffffff" x="379.752" y="506.36" width="556.7" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="379.752" y="506.36" width="556.7" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="382.752" y="519.56">-ulubionaKolektura: Kolektura</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="382.752" y="535.56">-LICZBA_LOSOWAŃ: int = 1</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="382.752" y="551.56">-LICZBA_ZAKŁADÓW: int = 1</text>
+    <rect style="fill: #ffffff" x="379.752" y="558.36" width="556.7" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="379.752" y="558.36" width="556.7" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="382.752" y="571.56">+KONSTR.(imię:String,nazwisko:String,pesel:String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="382.752" y="587.56">         środkiPieniężne:long,ulubionaKolektura:Kolektura): Minimalista</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="382.752" y="603.56">+kupKupon(): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="957.53" y="542.59" width="510.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="957.53" y="542.59" width="510.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1212.78" y="562.59">Stałoblankietowy</text>
+    <rect style="fill: #ffffff" x="957.53" y="570.59" width="510.5" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="957.53" y="570.59" width="510.5" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="960.53" y="583.79">-ulubionyBlankiet: Blankiet</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="960.53" y="599.79">-UlubioneKolektury: Kolektura[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="960.53" y="615.79">-tajemniczyCyklLosowań: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="960.53" y="631.79">-pierwszeLosowanie: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="960.53" y="647.79">-licznik: int</text>
+    <rect style="fill: #ffffff" x="957.53" y="654.59" width="510.5" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="957.53" y="654.59" width="510.5" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="960.53" y="667.79">+KONSTR.(imię:String,nazwisko:String,pesel:String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="960.53" y="683.79">         środkiPieniężne:long,pierwszeLosowanie:int,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="960.53" y="699.79">         ulubionyBlankiet:Blankiet,UlubioneKolektury:Kolektura[],</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="960.53" y="715.79">         tajemniczyCyklLosowań:int): Stałoblankietowy</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="469.552" y="633.172" width="472" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="469.552" y="633.172" width="472" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="705.552" y="653.172">Stałoliczbowy</text>
+    <rect style="fill: #ffffff" x="469.552" y="661.172" width="472" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="469.552" y="661.172" width="472" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="472.552" y="674.372">-ulubioneLiczby: TreeSet&lt;Integer&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="472.552" y="690.372">-UlubioneKolektury: Kolektura[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="472.552" y="706.372">-licznik: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="472.552" y="722.372">-MAX_LICZBA_LOSOWAŃ: int = 10</text>
+    <rect style="fill: #ffffff" x="469.552" y="729.172" width="472" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="469.552" y="729.172" width="472" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="472.552" y="742.372">+KONSTR.(imię:String,nazwisko:String,pesel:String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="472.552" y="758.372">         środkiPieniężne:long,UlubioneKolektury:Kolektura[],</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="472.552" y="774.372">         UlubioneLiczby:TreeSet&lt;Integer&gt;): Stałoliczbowy</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="472.552" y="790.372">+usłyszInformację(ZwycięskaSzóstka:TreeSet&lt;Integer&gt;,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="472.552" y="806.372">                    numerLosowania:int): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1058.22" y="-178.017" width="402.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1058.22" y="-178.017" width="402.7" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1259.57" y="-158.017">Zakład</text>
+    <rect style="fill: #ffffff" x="1058.22" y="-150.017" width="402.7" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1058.22" y="-150.017" width="402.7" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1061.22" y="-136.817">-czySkreślone: boolean[5][10]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1061.22" y="-120.817">-CENA_ZAKŁADU_BRUTTO: long = 3_00</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1061.22" y="-104.817">-LICZBA_ZAKREŚLEŃ: int = 6</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1061.22" y="-88.817">-WYSOKOŚĆ_ZAKŁADU: int = 5</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1061.22" y="-72.817">-SZEROKOŚĆ_ZAKŁADU: int = 10</text>
+    <rect style="fill: #ffffff" x="1058.22" y="-66.017" width="402.7" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1058.22" y="-66.017" width="402.7" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1061.22" y="-52.817">+KONSTR.(czySkreślone:boolean[][]): Zakład</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1061.22" y="-36.817"> KONSTR.(wytypowaneLiczby:TreeSet&lt;Integer&gt;): Zakład</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1061.22" y="-20.817">+wyceńZakład(): long</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1061.22" y="-4.817"> dajWytypowaneLiczby(): TreeSet&lt;Integer&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1061.22" y="11.183">+toString(): String</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="810.294,418.088 810.294,450.504 658.102,450.504 658.102,477.405 "/>
+    <polygon style="fill: #ffffff" points="818.294,418.088 810.294,402.088 802.294,418.088 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="818.294,418.088 810.294,402.088 802.294,418.088 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="810.294,417.11 810.294,450.504 1212.78,450.504 1212.78,541.586 "/>
+    <polygon style="fill: #ffffff" points="818.294,417.11 810.294,401.11 802.294,417.11 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="818.294,417.11 810.294,401.11 802.294,417.11 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="810.294,417.11 810.294,625.316 705.552,625.316 705.552,632.167 "/>
+    <polygon style="fill: #ffffff" points="818.294,417.11 810.294,401.11 802.294,417.11 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="818.294,417.11 810.294,401.11 802.294,417.11 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="810.294,417.11 810.294,450.504 1268.73,450.504 1268.73,407.298 "/>
+    <polygon style="fill: #ffffff" points="818.294,417.11 810.294,401.11 802.294,417.11 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="818.294,417.11 810.294,401.11 802.294,417.11 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-76.189" y="670.482" width="518.2" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-76.189" y="670.482" width="518.2" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="182.911" y="690.482">Media</text>
+    <rect style="fill: #ffffff" x="-76.189" y="698.482" width="518.2" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-76.189" y="698.482" width="518.2" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-73.189" y="711.682">-WszyscyGracze: ArrayList&lt;Gracz&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-73.189" y="727.682">-centrala: CentralaTotolotka</text>
+    <rect style="fill: #ffffff" x="-76.189" y="734.482" width="518.2" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-76.189" y="734.482" width="518.2" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-73.189" y="747.682">+powiadomOWynikachLosowania(zwycięskaSzóstka:TreeSet&lt;Integer&gt;,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-73.189" y="763.682">                            numerLosowania:int): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-73.189" y="779.682">+dajLosowąKolekturę(): Kolektura</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-73.189" y="795.682"> nawiążKontaktZCentraląTotolotka(centrala:CentralaTotolotka): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-73.189" y="811.682">+dodajNowegoGracza(gracz:Gracz): void</text>
+  </g>
+</svg>
